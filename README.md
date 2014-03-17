@@ -6,7 +6,7 @@ In order to be considered for the Ruby on Rails position, you must complete the 
 ## Description
 
 Your task is to scaffold a Ruby on Rails 4 application. This application will have users, books, publishers.
-App can crawl for and create books from [GOOGLE BOOK API](https://developers.google.com/books/docs/v1/using?hl=ru)'s API  display them, users will able to choose and mark books as favorite.
+App can crawl for and create books from [GOOGLE BOOK API](https://developers.google.com/books/docs/v1/using?hl=ru)'s and  display them, users will able to choose and mark books as favorite.
 
 
 ## Tasks
@@ -94,8 +94,9 @@ Sing Up and Sign In should not be avilable for logged user.
 
 3) Books `/books` *(available for all users)*
 
-Here will be a List of books
-image, title, description, published date, publisher, page count 
+Here will be a List of books:
+
+*image, title, description, published date, publisher, page count*
 
 Logged users will able mark/unmark any book as favorite and they will be available on `/favorite` page.  Favorite page will be available only for logged user.
 
@@ -121,3 +122,10 @@ Logged users will able mark/unmark any book as favorite and they will be availab
 ## Submission
 
 Commit and push code to your forked repository and then send us a pull request with your name in the title. We'll then review your code and get back to you!
+
+
+### Gems which can be useful
+- http://rubygems.org/gems/devise
+- http://rubygems.org/gems/rspec
+- http://rubygems.org/gems/capybara
+- http://rubygems.org/gems/database_cleaner
